@@ -1,0 +1,14 @@
+.semester_courses {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.semester_text {
+  font-size: 18px;
+  color: white;
+}
+
+.sem_container {
+ margin: 25px 15px;
+}

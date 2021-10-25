@@ -1,0 +1,243 @@
+.page_container {
+  width: 90%;
+  margin: 10px auto 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account_container {
+  color: #00334e;
+  margin: 0px 10px;
+  font-size: 22px;
+}
+
+.account_header {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.account_user {
+  display: flex;
+  flex-direction: row;
+}
+
+.account_netid {
+  padding-right: 80px;
+}
+
+.account_bio {
+  padding: 18px 0px 0px 0px;
+}
+
+.bio_top {
+  display: flex;
+  flex-direction: row;
+}
+
+.bio_form_label {
+  padding-right: 10px;
+}
+
+.success_text {
+  color: green;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.failed_text {
+  color: red;
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.completed_container {
+  color: #00334e;
+  margin: 0px 10px;
+  font-size: 22px;
+}
+
+.completed_header {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.completed_empty_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.program {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 5px;
+}
+
+.program_label {
+  padding-right: 10px;
+  padding-top: 2px;
+}
+
+.type_label {
+  padding-right: 10px;
+  padding-top: 2px;
+}
+
+.program_select {
+  padding-right: 10px;
+}
+
+.no_plan_text {
+  padding-bottom: 10px;
+}
+
+.completed_program {
+  display: flex;
+  flex-direction: row;
+}
+
+.completed_buttons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.completed_add_button {
+  padding-right: 20px;
+}
+
+.completed_name {
+  padding-right: 40px;
+}
+
+.completed_type {
+  padding-left: 40px;
+}
+
+.semester_container {
+  color: #00334e;
+  margin: 0px 10px;
+  font-size: 22px;
+}
+
+.semester_header {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.sems_empty_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.empty_course_top {
+  display: flex;
+  flex-direction: row;
+}
+
+.sems_add_button {
+  padding-right: 20px;
+}
+
+.semester_buttons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.no_sem_text {
+  padding-bottom: 10px;
+}
+
+.course_top_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.indiv_course {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  font-size: 14px;
+  padding-left: 25px;
+}
+
+.course_forms {
+  display: flex;
+  flex-direction: row;
+}
+
+.course_label {
+  font-size: 18px;
+}
+
+.semester_label {
+  padding-bottom: 8px;
+}
+
+.course_form_label {
+  padding: 8px 4px 0px 0px;
+}
+
+.course_form {
+  padding-right: 8px;
+}
+
+.course_form_name {
+  padding-top: 8px;
+  padding-right: 16px;
+}
+
+.course_buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.course_add_button {
+  padding-right: 15px;
+}
+
+.hrstyle_main {
+	border-top: 3px double #00334e;
+  height: 2px;
+  font-weight: 400;
+}
+
+.hrstyle_semester {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #00334e, #ccc);
+}
+
+.hrstyle_separator {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #00334e;
+  color: #00334e;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.vl {
+  border-left: 2px solid #00334e;
+  height: 20px;
+  margin-top: 8px;
+  padding: 0px 8px;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
